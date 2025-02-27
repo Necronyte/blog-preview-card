@@ -1,0 +1,90 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.arkaplan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+}
+
+.beyazkart{
+    width: 315px;
+    height: 415px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 0px black;
+    border-style: solid;
+    border-color: black;
+}
+
+.foto{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.badge{
+    display: block;
+    text-align: left;
+    width: fit-content;
+    background: #F4D04E;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.yazi{
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.baslik{
+    margin-top: 10px;
+    color: hsl(47, 88%, 63%);
+    display: block;
+    text-align: left;
+}
+
+.paragraf{
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    color: #7D7D7D;
+}
+
+.foto2{
+    display: block;
+    text-align: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.isim{
+    margin-top: -23px;
+    margin-right: 100px;
+    font-size: small;
+    font-weight: bold;
+}
